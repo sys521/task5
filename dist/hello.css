@@ -1,0 +1,153 @@
+
+@font-face {
+    font-family: 'iconfont';  /* project id 314258 */
+    src: url('//at.alicdn.com/t/font_e2sor7b3hdj9k9.eot');
+    src: url('//at.alicdn.com/t/font_e2sor7b3hdj9k9.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_e2sor7b3hdj9k9.woff') format('woff'),
+    url('//at.alicdn.com/t/font_e2sor7b3hdj9k9.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_e2sor7b3hdj9k9.svg#iconfont') format('svg');
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+html,body{
+    height:100%;
+}
+ul,li{
+    list-style:none;
+}
+
+#header {
+    width:100%;
+    position:fixed;
+    background:#ccc;
+    font-family:'iconfont';
+    font-size:60px;
+    z-index:1;
+    opacity: 0.8;
+}
+#header:after{
+    display:block;
+    content:none;
+    clear:both;
+}
+
+.header-logo{
+    float:left;
+    color:green;
+    line-height:80px;
+    margin-left:60px;
+}
+.header-nva {
+    float:right;
+    color:green;
+    font-size:40px;
+}
+.header-nva>li {
+    float:left;
+    line-height:80px;
+    margin-right:60px;
+}
+
+#carousel {
+    position:relative;
+    top:0;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+.carousel-wrap {
+    width:100%;
+    height:100%;
+    position:relative;
+}
+.carousel-wrap>li {
+    float:left;
+    height:100%;
+}
+.carousel-wrap>li>img{
+    height:100%;
+}
+#carousel span {
+    position:absolute;
+    top:50%;
+    transform:translate(0,-50%);
+    display:inline-block;
+    width:50px;
+    height:50px;
+    line-height:50px;
+    background:#ccc;
+    border-radius:50%;
+    text-align:center;
+    opacity:0.5;
+    margin-left:20px;
+    font-size:40px;
+
+}
+#carousel span:first-of-type{
+    left:0;
+
+}
+#carousel span:last-of-type{
+    right: 0px;
+    margin-right:20px;
+}
+.img-btn {
+    width:100%;
+    position:absolute;
+    bottom:10px;
+    text-align:center;
+}
+.img-btn li{
+    display:inline-block;
+    width:40px;
+    height:20px;
+    background:#fff;
+    opacity:0.5;
+}
+.img-btn .btn-bg{
+    background:red;
+}
+
+#waterfull{
+    width:1024px;
+    margin:0 auto;
+    position:relative;
+}
+
+.item {
+    position:absolute;
+    padding:10px;
+    margin:20px;
+    width:250px;
+    list-style:none;
+    border:2px #ccc solid;
+}
+#waterfull img{
+    width:100%;
+    height:auto;
+}
+
+h4{
+    padding:10px;
+}
+p {
+    border-top:1px solid;
+    padding:10px;
+}
+
+.loadmore{
+    border:1px solid #ccc;
+    border-radius:4px;
+    padding:20px 10px;
+    width:100px;
+    margin:20px auto;
+    color:#ccc;
+    text-align:center;
+    cursor:pointer;
+
+}
+
+
